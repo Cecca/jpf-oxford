@@ -88,6 +88,27 @@ bin/genmodel configFile.jpf SampleSUT.jar</code></pre>
       </section>
 
     </section>
+
+    <section id="conformance-checker" data-template="conformance-checker">
+      <h2>Conformance Checker</h2>
+      <div id="conformance-checker-purpose">
+        Checks if already existent model classes are consistent with
+        their library counterparts.
+      </div>
+       
+      <section>
+        <h3>How it works</h3>
+      </section>
+
+      <section>
+        <h3>Configuration</h3>
+      </section>
+
+      <section>
+        <h3>Sample output</h3>
+      </section>
+
+    </section>
     
   </div>
 
@@ -119,6 +140,17 @@ bin/genmodel configFile.jpf SampleSUT.jar</code></pre>
          ] 
         }
       ]
+      });
+
+    $.jmpress('template', 'conformance-checker', {
+      x:1000, y:1000,
+      children: function(idx, current_child, children) {
+          return {
+            x: 700,
+            y: idx*200 - 200,
+            scale: 0.5
+          }
+      }
     });
 
     // CONFIGURATION
