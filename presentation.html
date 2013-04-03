@@ -138,6 +138,35 @@ bin/genmodel configFile.jpf SampleSUT.jar</code></pre>
 
     </section>
     
+    <section id="dynamic-generator" data-template='dynamic-generator'>
+      <h3>Dynamic Generator</h3>
+      <div id="dynamic-generator-purpose">
+        <p>Sometimes a model is missing some members at runtime.</p>
+        <p>This tool enables dynamic generation of missing members.</p>
+      </div>
+      
+      <section>
+        <h3>How it works</h3>
+        <ul>
+          <li> When a model class is loaded a check is performed, loking
+               for missing members, with respect to the library version.
+          <li> For each missing member, the appropriate bytecode is generated
+               and inserted into the <code>ClassInfo</code> object.
+        </ul>
+      </section>
+
+      <section>
+        <h3>Configuration</h3>
+        Again through *.jpf files:
+        <ul>
+          <li> Paths to original libraries
+          <li> Paths to model classes
+          <li> JPF listener property        
+        </ul>
+      </section>
+
+    </section>
+
   </div>
 
   <script type="text/javascript">
@@ -172,6 +201,17 @@ bin/genmodel configFile.jpf SampleSUT.jar</code></pre>
 
     $.jmpress('template', 'conformance-checker', {
       x:1000, y:1000,
+      children: function(idx, current_child, children) {
+          return {
+            x: 700,
+            y: idx*200 - 200,
+            scale: 0.5
+          }
+      }
+    });
+
+    $.jmpress('template', 'dynamic-generator', {
+      x:1000, y:2000,
       children: function(idx, current_child, children) {
           return {
             x: 700,
