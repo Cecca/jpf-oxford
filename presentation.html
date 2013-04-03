@@ -15,7 +15,68 @@
     
     <link href="style.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="jquery.min.js"></script>
-    <script type="text/javascript" src="jmpress.all.min.js"></script>
+    <script type="text/javascript" src="jmpress.js"></script>
   </head>
+
+  <body>
+  <div id="jmpress">
+
+    <section id='title' data-template='title'>
+    <h1>
+      Tools to generate and check consistency of model 
+      classes for Java Pathfinder
+    </h1>
+    </section>
+
+    <section id='introduction' data-template='introduction'>
+    <h2>Introduction</h2>
+      <section>
+      <h3>Context</h3>
+        Java applications leverage the JDK and third party libraries
+        to simplify software development.
+      </section>
+
+      <section>
+      <h3>JPF Approach</h3>
+        To mitigate the state space explosion problem and handle native
+        methods, JPF usees so called model classes.
+      </section>
+
+      <section>
+      <h3>Developer problem</h3>
+        Writing model classes is time consuming and error prone. 
+      </section>
+    </section>
+    
+  </div>
+
+  <script type="text/javascript">
+
+    // TEMPLATES
+
+    $.jmpress('template', 'title', {
+      x: 0, y: 0
+    });
+
+    $.jmpress('template', 'introduction', {
+      x: 0, y: 1000,
+      children: [
+        {x: -200, y:200, scale: 0.7},
+        {x: 200, y:400, scale: 0.7},
+        {x: -200, y:600, scale: 0.7}
+      ]
+    });
+
+    // CONFIGURATION
+    $('#jmpress').jmpress({
+      stepSelector: 'section'
+    });
+
+    // ACTIVATION
+    $(function() {
+        $('jmpress').jmpress();
+    });
+  </script>
+  </body>
 
 </html>
