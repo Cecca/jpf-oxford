@@ -199,6 +199,9 @@ ol, ul {
     font-size: 60%;
     padding-left: 30px;
 }
+li {
+  margin-top: 1em;
+}
 blockquote, q {
     quotes: none;
 }
