@@ -58,7 +58,11 @@
         <p>Generates models automatically, starting from a System Under Test.</p>
       </div>
 
-      <section>
+      <section id="overview-model-generator" z-index='-1'>
+      
+      </section>
+
+      <section id="model-generator-how">
         <h3>How it works</h3>
         <p>
         <ul>
@@ -181,8 +185,6 @@ bin/genmodel configFile.jpf SampleSUT.jar</code></pre>
     </section>
 
     <section id="overview" z-index='-1' data-template="overview">
-    
-    </section>
 
   </div>
 
@@ -206,23 +208,17 @@ bin/genmodel configFile.jpf SampleSUT.jar</code></pre>
     $.jmpress('template', 'model-generator', {
       x: 1000, y: -200,
       children: function(idx, current_child, children) {
-          return {
-            x: 700,
-            y: idx*200-200,
-            scale: 0.5,
-            children: function(i, cc, cs) { return {z: -100, scale: 0.2}}
-          }
+          if(idx==0) 
+            return {x: 150, scale: 1.5}
+          else
+            return {
+              x: 600,
+              y: (idx-1)*200-200,
+              scale: 0.5,
+              children: function(i, cc, cs) { return {z: -100, scale: 0.2}}
+            }
       }
-      /*children: [
-        {x: 500, y: -300, scale: 0.5}, // how it works
-        {x: 1000, y: 0, scale: 0.5},   // example
-        {x: 500, y: 300, scale: 0.5,   // configuration
-         children: [
-          {z: -100, scale: 0.2}
-         ] 
-        }
-      ]*/
-      });
+    });
 
     $.jmpress('template', 'conformance-checker', {
       x:1000, y: 600,
