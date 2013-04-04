@@ -241,7 +241,7 @@ h1 {
 h2 {
     font-size: 150%}
 h3 {
-    font-size: 80%;
+    font-size: 100%;
     font-family: 'Headland One', serif;
 }
 h4 {
@@ -251,7 +251,9 @@ h4 {
 h5 {
     font-size: 40%}
 p {
-    font-size: 60%}
+  margin-top: 1em;
+  font-size: 60%
+}
 sup {
     font-size: 40%;
     vertical-align: top;
