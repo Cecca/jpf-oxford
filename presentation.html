@@ -158,23 +158,22 @@ bin/genmodel configFile.jpf SampleSUT.jar</code></pre>
       <section>
         <h3>How it works</h3>
         <ul>
-          <li><p> When a model class is loaded a check is performed, looking
-               for missing members, with respect to the library version.</p>
-          <li><p> For each missing member, the appropriate bytecode is generated
-               and inserted into the <code>ClassInfo</code> object.</p>
+          <li> When a model class is loaded a check is performed, looking
+               for missing members, with respect to the library version.
+          <li> For each missing member, the appropriate bytecode is generated
+               and inserted into the <code>ClassInfo</code> object.
          </ul>
       </section>
 
       <section>
         <h3>Configuration</h3>
-        <p>
-        Again through <code>*.jpf</code> files:
+        <p>Again through <code>*.jpf</code> files:</p>
         <ul>
-          <li><p> Paths to original libraries</p>
-          <li><p> Paths to model classes</p>
-          <li><p> JPF listener property</p>
+          <li> Paths to original libraries
+          <li> Paths to model classes
+          <li> JPF listener property
         </ul>
-        </p>
+        
       </section>
 
     </section>
