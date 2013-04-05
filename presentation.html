@@ -223,7 +223,12 @@ bin/genmodel configFile.jpf SampleSUT.jar</code></pre>
           x: 600,
           y: (idx-1)*200 - 200,
           scale: 0.5,
-          children: function(i, cc, cs) { return {z: -100, scale: 0.2} }
+          children: function(i, cc, cs) { 
+            return {
+              x: 200,
+              rotateZ: -90, scale: 0.2
+            } 
+          }
         }
     }
 
