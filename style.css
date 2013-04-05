@@ -469,3 +469,7 @@ section:not(.active) {
     opacity: 1;
 }
 }
+
+#authors {
+  font-size:130%;
+}
