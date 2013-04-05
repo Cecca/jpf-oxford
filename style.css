@@ -265,17 +265,23 @@ code {
     border-radius: 5px;
     border: 1px solid #aaa;
     padding: 3px;
+    display: inline;
 }
 pre {
     font-family: monospace;
     font-weight: 400;
-    font-size: 50%;
-    background-color: #ddd;
-    border-radius: 5px;
-    border: 1px solid #aaa;
-    padding: 3px;
+    font-size: 60%;
+    /*background-color: #ddd;*/
+    /*border-radius: 5px;*/
+    /*border: 1px solid #aaa;*/
+    /*padding: 3px;*/
     margin: 10px 0;
 }
+
+pre>code {
+  display: block;
+}
+
 .yes {
     color: #0a0;
 }
