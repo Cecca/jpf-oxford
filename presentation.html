@@ -272,7 +272,12 @@ bin/genmodel configFile.jpf SampleSUT.jar</code></pre>
 
     // CONFIGURATION
     $('#jmpress').jmpress({
-      stepSelector: 'section'
+      stepSelector: 'section',
+      keyboard: {
+        keys: {
+          79: ['select', '#overview'] // o key
+        }
+      }
     });
 
     // ACTIVATION
