@@ -479,3 +479,27 @@ section:not(.active) {
 #authors {
   font-size:130%;
 }
+#model-generator-example {
+  height: 18em;
+}
+#tree1 {
+  position: absolute;
+  /*z-index: 0;*/
+}
+#tree2 {
+  position: absolute;
+  /*z-index: 1;*/
+}
+#tree3 {
+  position: absolute;
+  /*z-index: 2;*/
+}
+#tree4 {
+  position: absolute;
+  /*z-index: 3;*/
+}
+#spacer {
+  position: absolute;
+  bottom: 0;
+  height: 1em;
+}
