@@ -234,13 +234,37 @@ bin/genmodel configFile.jpf SampleSUT.jar</code></pre>
       ]
     });
 
-    var tool_children = function(idx, current_child, children) {
+
+    $.jmpress('template', 'model-generator', {
+      x: 1000, y: -200,
+      children: function(idx, current_child, children) {
+        if(idx==0) 
+          return {x: 150, scale: 1.5}
+        else
+          return {
+            x: 600,
+            y: (idx-1)*200 - 200,
+            scale: 0.5,
+            children: function(i, cc, cs) { 
+              return {
+                x: 500,
+                rotateZ: -90, scale: 0.2
+              } 
+            }
+          }
+        }
+
+    });
+
+    $.jmpress('template', 'conformance-checker', {
+      x:1000, y: 600,
+      children: function(idx, current_child, children) {
       if(idx==0) 
         return {x: 150, scale: 1.5}
       else
         return {
           x: 600,
-          y: (idx-1)*200 - 200,
+          y: (idx-1)*300 - 100, 
           scale: 0.5,
           children: function(i, cc, cs) { 
             return {
@@ -249,21 +273,29 @@ bin/genmodel configFile.jpf SampleSUT.jar</code></pre>
             } 
           }
         }
-    }
+        }
 
-    $.jmpress('template', 'model-generator', {
-      x: 1000, y: -200,
-      children: tool_children
-    });
-
-    $.jmpress('template', 'conformance-checker', {
-      x:1000, y: 600,
-      children: tool_children
     });
 
     $.jmpress('template', 'dynamic-generator', {
       x:1000, y:1300,
-      children: tool_children
+      children: function(idx, current_child, children) {
+          if(idx==0) 
+            return {x: 150, scale: 1.5}
+          else
+            return {
+              x: 600,
+              y: (idx-1)*300 - 100,
+              scale: 0.5,
+              children: function(i, cc, cs) { 
+                return {
+                  x: 500,
+                  rotateZ: -90, scale: 0.2
+                } 
+              }
+            }
+          }
+
     });
 
     $.jmpress('template', 'overview', {
