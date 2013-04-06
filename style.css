@@ -476,11 +476,15 @@ section:not(.active) {
 }
 }
 
+.highlight {
+  color: red;
+}
+
 #authors {
   font-size:130%;
 }
 #model-generator-example {
-  height: 18em;
+  height: 23em;
 }
 #tree1 {
   position: absolute;

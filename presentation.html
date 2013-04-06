@@ -90,16 +90,36 @@
         <!--<section class='tree-example'></section>-->
         <!--<section class='tree-example'></section>-->
         <div data-jmpress='fade' id='tree1'>
-        <object data='tree1.svg' type='image/svg+xml'></object>
+          <pre><code>Socket s = new Socket("localhost", 10000);
+PrintWriter out = new PrintWriter(s.getOutputStream());
+out.write("Hello!");
+out.close();
+s.close();</code></pre>
+          <object data='tree1.svg' type='image/svg+xml'></object>
         </div>
         <div id='tree2' data-jmpress='fade'>
-        <object data='tree2.svg' type='image/svg+xml'></object>
+          <pre><code><span class='highlight'>Socket s = new Socket("localhost", 10000);</span>
+PrintWriter out = new PrintWriter(s.getOutputStream());
+out.write("Hello!");
+out.close();
+s.close();</code></pre>
+          <object data='tree2.svg' type='image/svg+xml'></object>
         </div>
         <div id='tree3' data-jmpress='fade'>
-        <object data='tree3.svg' type='image/svg+xml'></object>
+          <pre><code>Socket s = new Socket("localhost", 10000);
+PrintWriter out = new PrintWriter(<span class='highlight'>s.getOutputStream()</span>);
+out.write("Hello!");
+out.close();
+s.close();</code></pre>
+          <object data='tree3.svg' type='image/svg+xml'></object>
         </div>
         <div id='tree4' data-jmpress='fade'>
-        <object data='tree4.svg' type='image/svg+xml'></object>
+          <pre><code>Socket s = new Socket("localhost", 10000);
+PrintWriter out = new PrintWriter(s.getOutputStream());
+out.write("Hello!");
+out.close();
+<span class='highlight'>s.close();</span></code></pre>
+          <object data='tree4.svg' type='image/svg+xml'></object>
         </div>
       </section>
 
@@ -157,27 +177,6 @@ bin/genmodel configFile.jpf SampleSUT.jar</code></pre>
           </ul>
           </p>
       </section>
-
-      <!--<section>-->
-      <!--<h3>Sample output: <code>java.lang.System</code></h3>-->
-<!--<table>-->
-<!--<tr><th>Java version</th><th>Inconsistency type</th><th>Member name</th><th>Description</th></tr>-->
-<!--<tr><td>7</td><td>MISSING_METHOD</td><td><code>public static java.io.Console console()</code></td><td>This method is present in the library version but missing in the model.</td></tr>-->
-<!--<tr><td>7</td><td>MISSING_METHOD</td><td><code>public static java.lang.String lineSeparator()</code></td><td>This method is present in the library version but missing in the model.</td></tr>-->
-<!--<tr><td>N/A</td><td>ORPHAN_NATIVE_PEER</td><td><code>public static native void runFinalization()</code></td><td>The native peer is missing for this method.</td></tr>-->
-<!--<tr><td>N/A</td><td>ORPHAN_NATIVE_PEER</td><td><code>public static native void runFinalizersOnExit(boolean)</code></td><td>The native peer is missing for this method.</td></tr>-->
-<!--<tr><td>N/A</td><td>ORPHAN_NATIVE_PEER</td><td><code>static native java.lang.Class getCallerClass()</code></td><td>The native peer is missing for this method.</td></tr>-->
-<!--<tr><td>7</td><td>INCONSISTENT_MODIFIERS</td><td><code>public static java.io.InputStream in</code></td><td>The library version is: public static final</td></tr>-->
-<!--<tr><td>7</td><td>INCONSISTENT_MODIFIERS</td><td><code>public static java.io.PrintStream err</code></td><td>The library version is: public static final</td></tr>-->
-<!--<tr><td>7</td><td>INCONSISTENT_MODIFIERS</td><td><code>public static java.io.PrintStream out</code></td><td>The library version is: public static final</td></tr>-->
-<!--<tr><td>7</td><td>INCONSISTENT_CLASS_STATE</td><td><code>private static volatile java.io.Console cons</code></td><td>This field is present in the library version of the class but not in the model.</td></tr>-->
-<!--<tr><td>7</td><td>INCONSISTENT_CLASS_STATE</td><td><code>private static volatile java.lang.SecurityManager security</code></td><td>This field is present in the library version of the class but not in the model.</td></tr>-->
-<!--<tr><td>7</td><td>INCONSISTENT_CLASS_STATE</td><td><code>private static java.lang.String lineSeparator</code></td><td>This field is present in the library version of the class but not in the model.</td></tr>-->
-<!--<tr><td>7</td><td>INCONSISTENT_CLASS_STATE</td><td><code>private static java.util.Properties props</code></td><td>This field is present in the library version of the class but not in the model.</td></tr>-->
-<!--<tr><td>7</td><td>INCONSISTENT_CLASS_STATE</td><td><code>static java.lang.SecurityManager securityManager</code></td><td>This field is present in the model class but not in the library version.</td></tr>-->
-<!--<tr><td>7</td><td>INCONSISTENT_CLASS_STATE</td><td><code>static java.util.Properties properties</code></td><td>This field is present in the model class but not in the library version.</td></tr>-->
-<!--</table>-->
-      <!--</section>-->
 
     </section>
     
@@ -241,7 +240,7 @@ bin/genmodel configFile.jpf SampleSUT.jar</code></pre>
       else
         return {
           x: 600,
-          y: (idx-1)*300 - 300,
+          y: (idx-1)*200 - 200,
           scale: 0.5,
           children: function(i, cc, cs) { 
             return {
