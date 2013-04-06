@@ -83,12 +83,6 @@
 
       <section id='model-generator-example'>
         <h3>Example</h3>
-        <!--<section class='tree-example'>-->
-          <!--<object data='tree1.svg' type='image/xml+svg'></object>-->
-        <!--</section>-->
-        <!--<section class='tree-example'></section>-->
-        <!--<section class='tree-example'></section>-->
-        <!--<section class='tree-example'></section>-->
         <div data-jmpress='fade' id='tree1'>
           <pre><code>Socket s = new Socket("localhost", 10000);
 PrintWriter out = new PrintWriter(s.getOutputStream());
@@ -142,6 +136,12 @@ model-generator.includes = java.util.LinkedList.*,\
 bin/genmodel configFile.jpf SampleSUT.jar</code></pre>            
         <div>
         </section>
+      </section>
+
+      <section class='video-slide'>
+        <video controls>
+          <source src='model-generator.mp4' type='video/mp4'></source>
+        </video>
       </section>
 
     </section>
@@ -240,19 +240,19 @@ bin/genmodel configFile.jpf SampleSUT.jar</code></pre>
       children: function(idx, current_child, children) {
         if(idx==0) 
           return {x: 150, scale: 1.5}
+        else if (idx == 4)
+          return { x: 900, rotateZ: 0, scale: 0.3 }
         else
           return {
             x: 600,
             y: (idx-1)*200 - 200,
             scale: 0.5,
-            children: function(i, cc, cs) { 
-              return {
-                x: 500,
-                rotateZ: -90, scale: 0.2
-              } 
+            children: [
+                { x: 500, rotateZ: -90, scale: 0.2 } ,
+              ]
             }
           }
-        }
+        
 
     });
 

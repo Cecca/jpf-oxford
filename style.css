@@ -507,3 +507,14 @@ section:not(.active) {
   bottom: 0;
   height: 1em;
 }
+
+.video-slide {
+  padding: 3px;
+}
+
+video {
+  position: relative;
+  width: 100%;
+  left: 0px;
+
+}
