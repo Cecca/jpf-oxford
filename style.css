@@ -518,3 +518,11 @@ video {
   left: 0px;
 
 }
+
+.credits {
+  position: absolute;
+  bottom: 1em;
+  left: 1em;
+  font-size: 70%;
+  color: #222;
+}

@@ -227,6 +227,11 @@ bin/genmodel configFile.jpf SampleSUT.jar</code></pre>
 
     <section id="overview" z-index='-1' data-template="overview">
 
+
+  </div>
+
+  <div class="credits">
+    Made with <a href="">jmpress.js</a>
   </div>
 
   <script type="text/javascript">
@@ -319,13 +324,23 @@ bin/genmodel configFile.jpf SampleSUT.jar</code></pre>
     });
 
     // CONFIGURATION
+
+    var setActive = function(step) {
+      if ($(step).attr('id') === 'overview') {
+        $('.credits').fadeIn();
+      } else {
+        $('.credits').fadeOut();
+      }
+    };
+
     $('#jmpress').jmpress({
       stepSelector: 'section',
       keyboard: {
         keys: {
           79: ['select', '#overview'] // o key
         }
-      }
+      },
+      setActive: setActive
     });
 
     // ACTIVATION
