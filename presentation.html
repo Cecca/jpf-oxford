@@ -178,6 +178,12 @@ bin/genmodel configFile.jpf SampleSUT.jar</code></pre>
           </p>
       </section>
 
+      <section class='video-slide'>
+        <video controls>
+          <source src='conformance-checker.mp4' type='video/mp4'></source>
+        </video>
+      </section>
+
     </section>
     
     <section id="dynamic-generator" data-template='dynamic-generator'>
@@ -211,6 +217,12 @@ bin/genmodel configFile.jpf SampleSUT.jar</code></pre>
         
       </section>
 
+      <section class='video-slide'>
+        <video controls>
+          <source src='conformance-checker.mp4' type='video/mp4'></source>
+        </video>
+      </section>
+
     </section>
 
     <section id="overview" z-index='-1' data-template="overview">
@@ -241,7 +253,7 @@ bin/genmodel configFile.jpf SampleSUT.jar</code></pre>
         if(idx==0) 
           return {x: 150, scale: 1.5}
         else if (idx == 4)
-          return { x: 900, rotateZ: 0, scale: 0.3 }
+          return { x: 1000, rotateZ: 0, scale: 0.3 }
         else
           return {
             x: 600,
@@ -259,20 +271,22 @@ bin/genmodel configFile.jpf SampleSUT.jar</code></pre>
     $.jmpress('template', 'conformance-checker', {
       x:1000, y: 600,
       children: function(idx, current_child, children) {
-      if(idx==0) 
-        return {x: 150, scale: 1.5}
-      else
-        return {
-          x: 600,
-          y: (idx-1)*300 - 100, 
-          scale: 0.5,
-          children: function(i, cc, cs) { 
-            return {
-              x: 500,
-              rotateZ: -90, scale: 0.2
-            } 
+        if(idx==0) 
+          return {x: 150, scale: 1.5}
+        else if (idx == 3)
+          return { x: 1000, rotateZ: 0, scale: 0.3 }
+        else
+          return {
+            x: 600,
+            y: (idx-1)*300 - 100, 
+            scale: 0.5,
+            children: function(i, cc, cs) { 
+              return {
+                x: 500,
+                rotateZ: -90, scale: 0.2
+              } 
+            }
           }
-        }
         }
 
     });
@@ -282,6 +296,8 @@ bin/genmodel configFile.jpf SampleSUT.jar</code></pre>
       children: function(idx, current_child, children) {
           if(idx==0) 
             return {x: 150, scale: 1.5}
+          else if (idx == 3)
+            return { x: 1000, rotateZ: 0, scale: 0.3 }
           else
             return {
               x: 600,
