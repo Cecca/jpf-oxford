@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="543.75"
+   height="320"
+   id="svg2"
+   xml:space="preserve"><metadata
+     id="metadata8"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs6" /><g
+     transform="matrix(1.25,0,0,-1.25,0,320)"
+     id="g10"><g
+       id="g12"><path
+         d="M 0,0 435,0 435,256 0,256 0,0 z"
+         id="path14"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" /><path
+         d="M 0,256 436,256 436,-1 0,-1 0,256 z"
+         id="path16"
+         style="fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none" /><path
+         d="m 12,247 192,0 0,-31 -192,0 0,31 z"
+         id="path18"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none" /><text
+         transform="matrix(1,0,0,-1,81.989927,235.5)"
+         id="text20"><tspan
+           x="0 5.9898539 11.989707 17.979561 23.219433 26.969341 30.71925 36.709103 41.948975 45.698883 51.68874"
+           y="0"
+           id="tspan22"
+           style="font-size:9.99975586px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVuSans">«abstract» </tspan></text>
+<text
+         transform="matrix(1,0,0,-1,87.989931,223)"
+         id="text24"><tspan
+           x="0 6.7498355 12.739689 18.739542 23.979414 29.229286 35.229141 38.97905"
+           y="0"
+           id="tspan26"
+           style="font-size:9.99975586px;font-style:oblique;font-variant:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVuSans-Oblique">Checker </tspan></text>
+<path
+         d="m 12,216 192,0 0,-18 -192,0 0,18 z"
+         id="path28"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none" /><text
+         transform="matrix(1,0,0,-1,18.989927,205)"
+         id="text30"><tspan
+           x="0 3.7399087 6.729836 10.479744 16.479597 22.469452 28.469305 32.209213 35.959122 41.958977 45.708885 50.948757 53.938683 56.928612 59.918537 65.168411 67.408356 72.648224 76.398132 84.647934 89.88781 95.877663 101.87752 107.86737 111.61728 115.36719 121.35704 125.10695 133.35675"
+           y="0"
+           id="tspan32"
+           style="font-size:9.99975586px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVuSans">- reporters : List&lt;Reporter&gt; </tspan></text>
+<path
+         d="m 12,198 192,0 0,-30 -192,0 0,30 z"
+         id="path34"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none" /><text
+         transform="matrix(1,0,0,-1,18.989927,187)"
+         id="text36"><tspan
+           x="0 8.2397985 11.229726 16.479597 22.469452 28.469305 33.709179 38.959049 42.708958 52.448719 58.448574 64.438431 70.438278 72.67823 75.668152 78.658081 81.64801 88.397842 90.637787 96.62764 101.86752 107.10738 110.10732 116.09717 119.09709 125.08694 128.83685 131.82678 134.81671 137.80664 143.79649 149.79634 155.78619 158.02614 164.026 170.01585 176.00571"
+           y="0"
+           id="tspan38"
+           style="font-size:9.99975586px;font-style:oblique;font-variant:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVuSans-Oblique">+ check(model : ClassInfo) : boolean </tspan></text>
+<text
+         transform="matrix(1,0,0,-1,18.989927,175)"
+         id="text40"><tspan
+           x="0 8.2397985 11.229726 14.979634 20.979488 26.969341 32.969196 36.709103 40.459011 44.20892 46.448868 52.448719 57.688591 60.67852 63.668446 66.658371 68.898315 74.888176 80.138046 86.127899 92.117752 97.357628 99.597572 104.83744 108.58735 114.5872 120.57706 125.81693 131.0668 134.81671"
+           y="0"
+           id="tspan42"
+           style="font-size:9.99975586px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVuSans">+ report(inc : Inconsistency) </tspan></text>
+<path
+         d="m 273,247 151,0 0,-31 -151,0 0,31 z"
+         id="path44"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none" /><text
+         transform="matrix(1,0,0,-1,320.98993,235.5)"
+         id="text46"><tspan
+           x="0 5.9898539 8.2397985 14.229652 17.979561 23.969416 27.719324 30.71925 36.709103 41.958977 47.94883 53.948685"
+           y="0"
+           id="tspan48"
+           style="font-size:9.99975586px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVuSans">«interface» </tspan><tspan
+           x="6.999999 12.239871 18.239725 24.229578 30.229433 33.969341 37.71925 43.719105 47.469013"
+           y="12.500005"
+           id="tspan50"
+           style="font-size:9.99975586px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVuSans">Reporter </tspan></text>
+<path
+         d="m 273,216 151,0 0,-18 -151,0 0,18 z"
+         id="path52"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none" /><path
+         d="m 273,198 151,0 0,-30 -151,0 0,30 z"
+         id="path54"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none" /><text
+         transform="matrix(1,0,0,-1,279.98993,187)"
+         id="text56"><tspan
+           x="0 8.2397985 11.229726 14.979634 20.979488 26.969341 32.969196 36.709103 40.459011 44.20892 46.448868 52.448719 57.688591 60.67852 63.668446 66.658371 68.898315 74.888176 80.138046 86.127899 92.117752 97.357628 99.597572 104.83744 108.58735 114.5872 120.57706 125.81693 131.0668 134.81671"
+           y="0"
+           id="tspan58"
+           style="font-size:9.99975586px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVuSans">+ report(inc : Inconsistency) </tspan><tspan
+           x="0 8.2397985 11.229726 16.479597 18.719543 24.709396 29.949268 35.949123 39.699032 43.44894"
+           y="11.999997"
+           id="tspan60"
+           style="font-size:9.99975586px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVuSans">+ close() </tspan></text>
+<path
+         d="m 204.258,218.883 c 17.215,0.898 35.008,1.125 51.742,0.117 1.965,-0.117 3.953,-0.25 5.957,-0.395"
+         id="path62"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none" /><path
+         d="m 272.078,217.781 -9.601,5.297 4.621,-4.89 -4.985,0.402 4.985,-0.402 -5.352,-4.083 10.332,3.676 z"
+         id="path64"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none" /><text
+         transform="matrix(1,0,0,-1,220.5,222)"
+         id="text66"><tspan
+           x="0 5.9898539 11.979708 15.729616"
+           y="0"
+           id="tspan68"
+           style="font-size:9.99975586px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVuSans">noti</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,238.47956,222)"
+         id="text70"><tspan
+           x="0"
+           y="0"
+           id="tspan72"
+           style="font-size:9.99975586px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVuSans">ﬁ</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,243.71943,222)"
+         id="text74"><tspan
+           x="0 5.9898539"
+           y="0"
+           id="tspan76"
+           style="font-size:9.99975586px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVuSans">es</tspan></text>
+<path
+         d="m 157,111 141,0 0,-19 -141,0 0,19 z"
+         id="path78"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none" /><text
+         transform="matrix(1,0,0,-1,194.98993,99.5)"
+         id="text80"><tspan
+           x="0 2.2399454 8.2297993 13.479671 19.469524 25.459379 30.699251 32.939198 38.17907 41.928978 47.928829 53.918686 59.158558 64.408432"
+           y="0"
+           id="tspan82"
+           style="font-size:9.99975586px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVuSans">Inconsistency </tspan></text>
+<path
+         d="m 157,92 141,0 0,-66 -141,0 0,66 z"
+         id="path84"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none" /><text
+         transform="matrix(1,0,0,-1,163.98993,81)"
+         id="text86"><tspan
+           x="0 3.7399087 6.729836 10.479744 15.729616 21.719471 27.719324 30.709251 33.699177 36.689106 38.92905 44.918903 50.158775 56.15863 62.148483 67.388359 69.628304 74.868172 78.61808 84.617935 90.607788 95.847664 101.08753 104.83744 110.07732 116.06717 122.06702"
+           y="0"
+           id="tspan88"
+           style="font-size:9.99975586px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVuSans">- type : InconsistencyType </tspan><tspan
+           x="0 3.7399087 6.729836 8.9797812 14.969635 20.209507 26.19936 32.199215 38.199066 41.948975 47.18885 49.428795 55.418648 61.408501 64.408432 67.398354 70.388283 75.628151 81.618011 87.607864 91.357773 95.107681"
+           y="11.999997"
+           id="tspan90"
+           style="font-size:9.99975586px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVuSans">- javaVersion : short </tspan><tspan
+           x="0 3.7399087 6.729836 16.469599 22.479452 32.219215 38.219067 44.218922 47.96883 54.718666 56.958611 62.948463 68.188339 73.428207 76.418137 79.408066 82.40799 89.147827 91.387772 97.387627 102.62749 107.86737 110.10732 116.09717 119.09709 125.08694"
+           y="23.999994"
+           id="tspan92"
+           style="font-size:9.99975586px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVuSans">- memberClass : ClassInfo </tspan><tspan
+           x="0 3.7399087 6.729836 16.469599 22.479452 32.219215 38.219067 44.218922 47.96883 50.958755 53.948685 56.93861 59.178555 65.178413 68.178337 74.16819 81.668007 87.65786 89.897804 95.897659 101.13754 104.88744"
+           y="35.999992"
+           id="tspan94"
+           style="font-size:9.99975586px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVuSans">- member : InfoObject </tspan><tspan
+           x="0 3.7399087 6.729836 12.72969 18.719543 23.959415 29.209288 32.959194 35.199142 41.188995 44.938904 47.178848 53.168701 59.168556 62.158482 65.148407 68.138336 74.878174 78.628082 82.377991 84.617935 90.607788 96.607643"
+           y="47.999989"
+           id="tspan96"
+           style="font-size:9.99975586px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVuSans">- description : String </tspan></text>
+<path
+         d="m 157,26 141,0 0,-18 -141,0 0,18 z"
+         id="path98"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none" /><path
+         d="m 139.578,168.258 c 12.129,-14.883 26.262,-32.223 39.586,-48.567"
+         id="path100"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none" /><path
+         d="m 185.625,111.762 -2.832,10.597 -0.328,-6.718 -3.16,3.875 3.16,-3.875 -6.649,1.031 9.809,-4.91 z"
+         id="path102"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none" /><text
+         transform="matrix(1,0,0,-1,170.98993,137.5)"
+         id="text104"><tspan
+           x="0 5.9898539 11.989707 15.739616 21.73947 26.979342 30.72925"
+           y="0"
+           id="tspan106"
+           style="font-size:9.99975586px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVuSans">detects</tspan></text>
+<path
+         d="m 315.891,168.258 c -12.332,-14.883 -26.703,-32.223 -40.25,-48.567"
+         id="path108"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none" /><path
+         d="m 269.07,111.762 9.848,4.828 -6.656,-0.977 3.191,3.852 -3.191,-3.852 -0.274,6.723 -2.918,-10.574 z"
+         id="path110"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none" /><text
+         transform="matrix(1,0,0,-1,295,137.5)"
+         id="text112"><tspan
+           x="0 3.7499084 9.7497625 15.739616 21.729469 25.479378 29.229286"
+           y="0"
+           id="tspan114"
+           style="font-size:9.99975586px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVuSans">reports</tspan></text>
+</g></g></svg>
