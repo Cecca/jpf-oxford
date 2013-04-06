@@ -216,7 +216,7 @@ table {
 body {
     font-family: Quicksand, sans-serif;
     -webkit-font-smoothing: antialiased;
-    background-color: #eee;
+    /*background-color: #eee;*/
     -webkit-transform: translate3d(0, 0, 1px);
     -moz-transform: translate3d(0, 0, 1px);
     -ms-transform: translate3d(0, 0, 1px);
